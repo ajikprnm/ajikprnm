@@ -1,0 +1,10 @@
+SAADRCHO02
+JL_DCX_A_99:admin> switchshow | grep 206
+206    9   30   63ce00   id    N8   Online      FC  F-Port  51:40:2e:c0:11:0e:84:8a
+JL_DCX_A_99:admin> switchshow | grep 207
+207    9   31   63cf00   id    N8   Online      FC  F-Port  51:40:2e:c0:11:0e:96:2a
+SAADRCHO01
+JL_DCX_B_199:admin> switchshow | grep 206
+206    9   30   c7ce00   id    N8   Online      FC  F-Port  51:40:2e:c0:11:0e:88:9a
+JL_DCX_B_199:admin> switchshow | grep 207
+207    9   31   c7cf00   id    N8   Online      FC  F-Port  51:40:2e:c0:11:0e:96:1a
